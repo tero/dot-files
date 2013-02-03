@@ -27,11 +27,6 @@
 	autosetupmerge = true
 [pager]
 	status = false
-[github]
-	user = "<%= Keychain['github.com/api'].account %>"
-	token = "<%= Keychain['github.com/api'].password %>"
-	password = "<%= Keychain['github.com'].password %>"
-	ssl = true
 [tig]
 	show-date = relative
 	author-width = 8
