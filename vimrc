@@ -215,16 +215,16 @@ Bundle 'kchmck/vim-coffee-script'
 " Ruby/Rails ------------------------------------------------------------- {{{
 
 " Ruby langauge.
-Bundle 'vim-ruby/vim-ruby'
+"Bundle 'vim-ruby/vim-ruby'
 
 " Ruby refactoring tool (dependency: matchit).
 " Bundle 'ecomba/vim-ruby-refactoring'
 
 " Text object for selecting ruby blocks (dependency: matchit).
-Bundle 'nelstrom/vim-textobj-rubyblock'
+"Bundle 'nelstrom/vim-textobj-rubyblock'
 
 " Quickly converts Ruby blocks between {} and begin/end.
-Bundle 'sorin-ionescu/vim-ruby-block-conv'
+"Bundle 'sorin-ionescu/vim-ruby-block-conv'
 
 " Debug Ruby scripts and applications.
 " Bundle 'astashov/vim-ruby-debugger'
