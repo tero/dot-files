@@ -154,6 +154,12 @@ Bundle 'vim-scripts/matchit.zip'
 " Snippets for snipMate.
 " Bundle 'scrooloose/snipmate-snippets'
 
+" More powerful than Snipmate snippet engine
+Bundle 'vim-scripts/UltiSnips'
+
+" New file templates
+Bundle 'tobyS/skeletons.vim'
+
 " }}}
 " Version Control -------------------------------------------------------- {{{
 
