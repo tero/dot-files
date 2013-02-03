@@ -325,7 +325,7 @@ set autoread
 set autowrite
 
 " Set spell check language.
-set spelllang=en_au
+set spelllang=en_us
 
 " Save battery by letting OS flush to disk.
 set nofsync
