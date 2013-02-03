@@ -260,7 +260,7 @@ Bundle 'kchmck/vim-coffee-script'
 " Python ----------------------------------------------------------------- {{{
 
 " Almost everything needed for Python programming.
-" Bundle 'klen/python-mode'
+ Bundle 'klen/python-mode'
 
 " }}}
 " Org-Mode --------------------------------------------------------------- {{{
