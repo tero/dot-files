@@ -5,8 +5,20 @@
 	uncommit = reset --soft
 	undo = reset --hard
 	unstage = reset
+  co = checkout
+	ci = commit
+	st = status
+	br = branch
+	df = diff
+	pa = add --patch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	promote = !$ZSH/bin/git-promote
+	wtf     = !$ZSH/bin/git-wtf
+	rank-contributers = !$ZSH/bin/git-rank-contributers
+	count   = !git shortlog -sn
 [user]
-	name = Tero Alén 
+	name = Tero Alén
 	email = tero@alen.mobi
 [color]
 	ui = auto
