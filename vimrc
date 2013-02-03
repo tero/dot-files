@@ -263,6 +263,9 @@ Bundle 'kchmck/vim-coffee-script'
  Bundle 'klen/python-mode'
 
 " }}}
+" PHP ----------------------------------------------------------------- {{{
+ Bundle 'tobyS/pdv'
+" }}}
 " Org-Mode --------------------------------------------------------------- {{{
 
 " Emacs Org-Mode for Vim.
