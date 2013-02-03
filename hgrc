@@ -3,10 +3,10 @@
 editrc = !$EDITOR `$HG root`/.hg/hgrc
 
 ; Pretty logs.
-blog = log --style=/Users/sorin/.mercurial/templates/map-cmdline.blog
+blog = log --style=~/.mercurial/templates/map-cmdline.blog
 olog = blog -q
 golog = olog --graph
-plog = log --style=/Users/sorin/.mercurial/templates/map-cmdline.plog
+plog = log --style=~/.mercurial/templates/map-cmdline.plog
 slog = plog --stat
 dlog = slog --patch
 show = dlog --verbose --rev
@@ -71,7 +71,7 @@ git = True
 unified = 5
 
 [email]
-from = Sorin Ionescu <sorin.ionescu@gmail.com>
+from = Tero Al√n <tero@alen.mobi>
 method = smtp
 
 [extdiff]
@@ -133,12 +133,6 @@ format = topic number estimate
 [schemes]
 gh = git://github.com/
 ghs = git+ssh://git@github.com/
-
-[smtp]
-host = smtp.gmail.com
-port = 587
-tls = True
-username = sorin.ionescu@gmail.com
 
 [ui]
 commitsubrepos = False
