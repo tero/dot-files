@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------
 # General Options
 # ------------------------------------------------------------------------------
-escape ^\\                # Set the escape sequence to CTRL+\.
+#escape ^\\                # Set the escape sequence to CTRL+\.
 defutf8 on                # Make UTF-8 encoding default.
 altscreen on              # Use alternate screen to clean exit out of vim.
 autodetach on             # Detach on hang-up.
