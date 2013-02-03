@@ -6,8 +6,8 @@
 	undo = reset --hard
 	unstage = reset
 [user]
-	name = Sorin Ionescu
-	email = sorin.ionescu@gmail.com
+	name = Tero Alén 
+	email = tero@alen.mobi
 [color]
 	ui = auto
 [format]
