@@ -996,6 +996,16 @@ aug ft_text
 aug end
 
 " }}}
+
+" Twig ------------------------------------------------------------------- {{{
+
+aug ft_twig
+    au!
+    au BufRead,BufNewFile *.twig set filetype=htmljinja
+aug end
+
+" }}}
+
 " Vagrant ---------------------------------------------------------------- {{{
 
 aug ft_vagrant
