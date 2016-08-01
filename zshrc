@@ -13,3 +13,6 @@ fi
 # python virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
+
+#Disable Homebrew tracking
+export HOMEBREW_NO_ANALYTICS=1
