@@ -16,3 +16,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 #Disable Homebrew tracking
 export HOMEBREW_NO_ANALYTICS=1
+
+#Enable bash completion
+autoload bashcompinit
+bashcompinit
