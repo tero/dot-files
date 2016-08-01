@@ -87,6 +87,7 @@ path=(
   /usr/{bin,sbin}
   /{bin,sbin}
   $path
+  /usr/local/share/npm/bin
 )
 
 for path_file in /etc/paths.d/*(.N); do
