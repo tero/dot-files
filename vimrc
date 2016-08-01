@@ -31,8 +31,13 @@ call vundle#rc()
 " Manages Vim bundles.
 Bundle 'gmarik/vundle'
 
+" .editorconfig support. See more from editorconfig.org
+Bundle 'editorconfig/editorconfig-vim'
+
 " A better status bar.
-Bundle 'Lokaltog/vim-powerline'
+"Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
+Bundle 'bling/vim-bufferline'
 
 " Identifies file indentation.
 Bundle 'Raimondi/YAIFA'
@@ -93,6 +98,11 @@ Bundle 'tpope/vim-markdown'
 " Buffer and file navigation.
 Bundle 'kien/ctrlp.vim'
 " Bundle 'wincent/Command-T'
+
+" NERDtree file navigation
+Bundle 'scrooloose/nerdtree'
+
+map <F2> :NERDTreeToggle<CR>
 
 " Tag manager.
 " Bundle 'kien/tabman.vim'
@@ -160,6 +170,9 @@ Bundle 'vim-scripts/UltiSnips'
 " New file templates
 Bundle 'tobyS/skeletons.vim'
 
+" Jinja template syntax support
+Bundle 'estin/htmljinja'
+
 " }}}
 " Version Control -------------------------------------------------------- {{{
 
@@ -182,7 +195,7 @@ Bundle 'sjl/splice.vim'
 " Web Development -------------------------------------------------------- {{{
 
 " Expands condensed HTML.
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 
 " Translates markup languages into HTML for previewing.
 Bundle 'matthias-guenther/hammer.vim'
