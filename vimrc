@@ -1041,12 +1041,24 @@ aug end
 map <Leader>a :Ack!
 
 " }}}
+" Airline----------------------------------------------------------------- {{{
+
+"let g:airline_powerline_fonts=1
+
+" }}}
 " Auto Complete Pop ------------------------------------------------------ {{{
 
 " Set length of characters before keyword completion.
 let g:AutoComplPop_BehaviorKeywordLength = 4
 
 " }}}
+
+" Bufferline-------------------------------------------------------------- {{{
+
+let g:bufferline_echo=0
+
+" }}}
+
 " Command-T -------------------------------------------------------------- {{{
 
 " " Set the maximum height of the match window.
@@ -1086,6 +1098,11 @@ let g:ctrlp_lazy_update = 1
 
 " Enable help tag, exuberant ctags, quickfix, and directory search.
 let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir']
+
+" Ignore Symfony2 cache dir
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v/app/cache$',
+  \ }
 
 " Map buffer search.
 nnoremap <Leader>b :CtrlPBuffer<CR>
@@ -1248,7 +1265,7 @@ let g:surround_60 = "<\r>"
 " Syntastic -------------------------------------------------------------- {{{
 
 " Show warnings.
-let g:syntastic_quiet_warnings = 0
+let g:syntastic_quiet_messages = {'level': 'warnings'}
 
 " Do not validate the following file types.
 let g:syntastic_disabled_filetypes = ['html', 'python']
@@ -1715,9 +1732,9 @@ function! BackgroundToggle()
     endif
 endfunction
 command! BackgroundToggle :call BackgroundToggle()
-silent! nnoremap <F2> :BackgroundToggle<CR>
-silent! inoremap <F2> :BackgroundToggle<CR>
-silent! vnoremap <F2> :BackgroundToggle<CR>
+silent! nnoremap <F5> :BackgroundToggle<CR>
+silent! inoremap <F5> :BackgroundToggle<CR>
+silent! vnoremap <F5> :BackgroundToggle<CR>
 
 " }}}
 
