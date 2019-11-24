@@ -24,3 +24,5 @@ export HOMEBREW_NO_ANALYTICS=1
 #Enable bash completion
 autoload bashcompinit
 bashcompinit
+
+alias rcp="rsync -ah --inplace --info=progress2"
