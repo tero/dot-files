@@ -546,9 +546,9 @@ task :install => [
   'render',
   'link:create',
   'link:clean',
-  'bundle:init',
-  'bundle:update',
-  'bundle:clean',
+  # 'bundle:init',
+  # 'bundle:update',
+  # 'bundle:clean',
   'make'
 ] do
   info "Backup: #{BACKUP_DIR_PATH}" if File.directory? BACKUP_DIR_PATH
