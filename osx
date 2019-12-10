@@ -3,7 +3,7 @@
 # Via https://raw.github.com/mathiasbynens/dotfiles/master/.osx
 
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs) (default: not set).
-defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+# defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Enable subpixel font rendering on non-Apple LCDs (default: not set).
 #defaults write NSGlobalDomain AppleFontSmoothing -int 2
@@ -43,7 +43,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Disable shadow in screenshots (default: false).
-defaults write com.apple.screencapture disable-shadow -bool true
+# defaults write com.apple.screencapture disable-shadow -bool true
 
 # Enable highlight hover effect for the grid view of a stack (default: false).
 # defaults write com.apple.dock mouse-over-hilte-stack -bool true
@@ -52,7 +52,7 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # defaults write enable-spring-load-actions-on-all-items -bool true
 
 # Show indicator lights for open applications in the Dock (default: false).
-defaults write com.apple.dock show-process-indicators -bool true
+# defaults write com.apple.dock show-process-indicators -bool true
 
 # Don’t animate opening applications from the Dock (default: true).
 # defaults write com.apple.dock launchanim -bool false
@@ -73,25 +73,25 @@ defaults write com.apple.dock show-process-indicators -bool true
 # defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 # Disable disk image verification (default: false).
-defaults write com.apple.frameworks.diskimages skip-verify -bool true
-defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
-defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
+# defaults write com.apple.frameworks.diskimages skip-verify -bool true
+# defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
+# defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
 
 # Automatically open a new Finder window when a volume is mounted (default: false).
 # defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
 # defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
 
 # Display full POSIX path as Finder window title (default: false).
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+# defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 # Increase window resize speed for Cocoa applications (default: not set).
 # defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 # Avoid creating .DS_Store files on network volumes (default: false).
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+# defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # Disable the warning when changing a file extension (default: true).
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+# defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Show item info below desktop icons (default false).
 # /usr/libexec/PlistBuddy \
@@ -119,7 +119,7 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 #   TrackpadRightClick -bool true
 
 # Disable Safari’s thumbnail cache for History and Top Sites
-defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
+# defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
 
 # Enable Safari’s debug menu (default: false).
 # defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
@@ -166,7 +166,7 @@ defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
 # echo "0x08000100:0" > ~/.CFUserTextEncoding
 
 # Kill affected applications
-for app in Safari Finder Dock Mail SystemUIServer; do
-  killall "$app" >/dev/null 2>&1;
-done
+# for app in Safari Finder Dock Mail SystemUIServer; do
+#   killall "$app" >/dev/null 2>&1;
+# done
 
